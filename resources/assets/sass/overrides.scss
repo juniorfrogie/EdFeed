@@ -1,0 +1,32 @@
+/* ========================================
+   ============ Text Overrides ===========
+   ======================================== */
+
+.is-muted {
+  color: $grey-light !important;
+}
+
+a.is-muted:hover{
+  color: $grey !important;
+}
+a {
+  color: $grey;
+}
+
+#opportunity .card-content {
+    padding: 1rem;
+}
+
+.columns {
+	margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+
+	.columns {
+	    margin-left: -0.75rem;
+	    margin-right: -0.75rem;
+	    margin-top: -0.75rem;
+	}
+
+}
