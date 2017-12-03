@@ -30,11 +30,11 @@
           </a>
 
           <div class="navbar-dropdown">
-            @foreach ($institutes as $institute)
+            {{-- @foreach ($institutes as $institute)
               <a class="navbar-item" href="major/{{$institute->id}}">
                 {{$institute->name}}
               </a>
-            @endforeach
+            @endforeach --}}
           </div>
         </div>
 

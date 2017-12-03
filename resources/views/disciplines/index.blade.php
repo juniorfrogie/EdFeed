@@ -36,13 +36,13 @@
             </div>
           </div>
           <ul>
-            @foreach ($institutes as $institute)
+            {{-- @foreach ($institutes as $institute)
               <li data-clickable="clickable">
                 <a href="{{$institute->id}}" title="{{$institute->name}}">
                   {{$institute->name}}
                 </a>
               </li>
-            @endforeach
+            @endforeach --}}
           </ul>
         </div>
       </section>

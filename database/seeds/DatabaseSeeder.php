@@ -14,7 +14,6 @@ class DatabaseSeeder extends Seeder
         // $this->call(LaratrustSeeder::class);
         $this->call([
           LaratrustSeeder::class,
-          InstituteFactory::class,
         ]);
     }
 }
