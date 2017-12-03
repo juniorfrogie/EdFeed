@@ -15,8 +15,8 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         //
-        $institutes = Institute::orderBy('name')->get();
-        view()->share('institutes', $institutes);
+        // $institutes = Institute::orderBy('name')->get();
+        // view()->share('institutes', $institutes);
     }
 
     /**
