@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-  return view('welcome');
+    return view('disciplines.about');
 });
 
 Auth::routes();
@@ -23,12 +23,15 @@ Route::prefix('manage')->middleware('role:superadministrator|administrator|edito
   Route::resource('/permissions', 'PermissionController', ['except' => 'destroy']);
   Route::resource('/roles', 'RoleController', ['except' => 'destroy']);
   Route::resource('/posts', 'PostController');
+  Route::resource('/institutes', 'InstituteController');
+  Route::resource('/courses', 'CourseController');
+  Route::get('/courses/create/{institute_id}', 'CourseController@create')->name('courses.create');
 });
 
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/landing', function () {
-    return view('disciplines.index');
+Route::get('/about', function () {
+    return view('disciplines.about');
 });
 Route::get('/search', function () {
     return view('disciplines.search');

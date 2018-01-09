@@ -26,6 +26,8 @@
     </p>
     <ul class="menu-list">
       <li><a href="{{route('posts.index')}}" class="{{Nav::isResource('posts')}}">Blog Posts</a></li>
+      <li><a href="{{route('institutes.index')}}" class="{{Nav::isResource('institutes')}}">Manage Institutes</a></li>
+
     </ul>
   </aside>
 </div>

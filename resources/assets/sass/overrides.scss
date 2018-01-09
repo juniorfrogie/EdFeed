@@ -2,24 +2,72 @@
    ============ Text Overrides ===========
    ======================================== */
 
-.is-muted {
-  color: $grey-light !important;
+// .is-muted {
+//   color: $grey-light !important;
+// }
+//
+// a.is-muted:hover{
+//   color: $grey !important;
+// }
+// a {
+//   color: $grey;
+// }
+
+$prime-color: #02a554;
+
+body {
+  color: #20292f;
+  font-size: 16px;
+  letter-spacing: .01em;
+  line-height: 1.5;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding-bottom: 5px;
+  line-height: 1em;
+  font-weight: 400;
+  color: #20292f;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: #20292f
+}
+h1 {
+  font-size: 35px
+}
+h2 {
+  font-size: 20px
+}
+h3,
+h4,
+h5,
+h6 {
+  font-size: 18px;
 }
 
-a.is-muted:hover{
-  color: $grey !important;
-}
 a {
-  color: $grey;
+  color:#71818c;
+
+}
+a:hover{
+  color:#20292f;
 }
 
-#opportunity .card-content {
-    padding: 1rem;
-}
+
 
 .columns {
 	margin: 0;
 }
+
+
 
 @media screen and (min-width: 768px) {
 
@@ -29,4 +77,19 @@ a {
 	    margin-top: -0.75rem;
 	}
 
+}
+
+.footer {
+  padding: 3rem 1.5rem 6rem;
+  background-color: #2D3C48;
+  border-top: 0.0625rem solid #606B7D;
+  color: #b3b3b3;
+}
+
+.modal{
+  z-index: 31;
+}
+
+.navbar a{
+  color:#1D212B;
 }

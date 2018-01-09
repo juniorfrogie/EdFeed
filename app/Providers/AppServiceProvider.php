@@ -3,7 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use App\Institute;
+use App\Major;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -15,8 +15,9 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         //
-        // $institutes = Institute::orderBy('name')->get();
-        // view()->share('institutes', $institutes);
+        // all views can access to major
+        $majors = Major::orderBy('name')->get();
+        view()->share('majors', $majors);
     }
 
     /**

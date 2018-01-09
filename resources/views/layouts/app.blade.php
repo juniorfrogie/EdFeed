@@ -23,10 +23,13 @@
   </div>
 
 
+
+
   <!-- Scripts -->
-  @if (Request::segment(1) == "manage/dashboard")
+  {{-- @if (Request::segment(1) == "manage/dashboard")
     <script src="{{ asset('js/app.js') }}"></script>
-  @endif
+  @endif --}}
+  <script src="{{ asset('js/app.js') }}"></script>
   @yield('scripts')
 </body>
 </html>

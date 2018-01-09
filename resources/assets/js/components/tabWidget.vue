@@ -6,7 +6,7 @@
                 Lorem ipsum dolor sit amet.
             </b-tab-item>
 
-            <b-tab-item label="Course outline">
+            <b-tab-item label="Course Outline">
                 Lorem <br>
                 ipsum <br>
                 dolor <br>

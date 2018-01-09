@@ -28,7 +28,7 @@ class RoleController extends Controller
     public function create()
     {
       $permissions = Permission::all();
-      
+
       return view('manage.roles.create')->withPermissions($permissions);
     }
 
@@ -55,7 +55,6 @@ class RoleController extends Controller
       if ($request->permissions) {
         $role->syncPermissions(explode(',', $request->permissions));
       }
-
       Session::flash('success', 'Successfully created the new '. $role->display_name . ' role in the database.');
       return redirect()->route('roles.show', $role->id);
     }
