@@ -134,11 +134,61 @@
           <div class="row">
             <div class="solution-container col-12 col-md-4">
               <div class="solution-image">
-                <i class="fa fa-search" aria-hidden="true"></i>
+                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
               </div>
               <div class="solution-content">
                 <h4>Potential Students</h4>
                 <p>Even before the application open - the list of students to later following.</p>
+              </div>
+            </div>
+
+            <div class="solution-container col-12 col-md-4">
+              <div class="solution-image">
+                <i class="fa fa-laptop" aria-hidden="true"></i>
+              </div>
+              <div class="solution-content">
+                <h4>Application System</h4>
+                <p>More students can access to online application.</p>
+              </div>
+            </div>
+
+            <div class="solution-container col-12 col-md-4">
+              <div class="solution-image">
+                <i class="fa fa-sitemap" aria-hidden="true"></i>
+              </div>
+              <div class="solution-content">
+                <h4>Institute Microsite</h4>
+                <p>Your own website.</p>
+              </div>
+            </div>
+
+            <div class="solution-container col-12 col-md-4">
+              <div class="solution-image">
+                <i class="fa fa-address-card-o" aria-hidden="true"></i>
+              </div>
+              <div class="solution-content">
+                <h4>Marketing</h4>
+                <p>Advertising Support</p>
+              </div>
+            </div>
+
+            <div class="solution-container col-12 col-md-4">
+              <div class="solution-image">
+                <i class="fa fa-hourglass-start" aria-hidden="true"></i>
+              </div>
+              <div class="solution-content">
+                <h4>Better Plan</h4>
+                <p>Access to student statistic.</p>
+              </div>
+            </div>
+
+            <div class="solution-container col-12 col-md-4">
+              <div class="solution-image">
+                <i class="fa fa-tag" aria-hidden="true"></i>
+              </div>
+              <div class="solution-content">
+                <h4>Brand Possitioning</h4>
+                <p>Reach out to more and beyond.</p>
               </div>
             </div>
           </div>
